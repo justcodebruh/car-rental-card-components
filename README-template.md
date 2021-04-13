@@ -4,17 +4,22 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [Frontend Mentor - 3-column preview card component solution](#frontend-mentor---3-column-preview-card-component-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Effort Estimation ~ 8 hours](#effort-estimation--8-hours)
+    - [Actual Effort](#actual-effort)
+    - [Estimation Debrief](#estimation-debrief)
+    - [Screenshot of Solution](#screenshot-of-solution)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
+    - [Useful resources](#useful-resources)
+  - [Author](#author)
+  - [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -27,7 +32,18 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-### Screenshot
+### Effort Estimation ~ 8 hours 
+I anticipate this challenge should take ~8 hours of dedicated effort. This estimate includes development and research in order to get a working product, I will try to balanch coding standards with get a developed product. I will save intense combing of coding standards for a mock code review of myself and that will be counted as a separate effort.
+
+I will be doing the project with raw HTML 5 and CSS 3 there will be no use of front-end frameworks. 
+
+### Actual Effort
+This section will detail the actual effort I contributed to the project, number of pomodoros, date and time stamps of sessions so I can get as close as possible to estimating total deep work time.
+
+### Estimation Debrief 
+This section will serve as a debrief my own solo retroactive to determine any discrepancy between by estimation of effort and the actual effort take.
+
+### Screenshot of Solution
 
 ![](./screenshot.jpg)
 
