@@ -1,0 +1,48 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 307px 307px 307px;
+    grid-template-rows: 900px;
+}
+
+#sedan-card {
+    background-color: hsl(31, 77%, 52%);
+}
+
+#suv-card {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#luxury-card {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.card {
+    display: grid;
+    grid-template-rows: auto;
+    height: 500px;
+    width: 307px;
+}
+
+button {
+    grid-row-start: 4;
+    grid-row-end: 4;
+    height: 45%;
+    width: 48%;
+    margin-left: 15%;
+}
+
+p {
+    padding-left: 15%;
+    padding-right: 15%;
+    margin: 0;
+}
+
+h1 {
+    padding-left: 15%;
+    margin: 0;
+}
+
+img {
+    padding-left: 15%;
+    padding-top: 15%;
+}
