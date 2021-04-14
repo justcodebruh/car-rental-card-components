@@ -91,3 +91,21 @@ img {
     padding-left: 15%;
     padding-top: 15%;
 }
+
+@media screen and (max-width: 375px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1500px;
+        grid-template-rows: 500px 500px 500px;
+    }
+
+    #sedan-card {
+        border-radius:8px 8px 0px 0px;
+    }
+
+    #luxury-card {
+        border-radius:0px 0px 8px 8px;
+    }
+
+    
+}
