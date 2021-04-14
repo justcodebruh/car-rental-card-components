@@ -40,6 +40,9 @@ I will be doing the project with raw HTML 5 and CSS 3 there will be no use of fr
 ### Actual Effort
 This section will detail the actual effort I contributed to the project, number of pomodoros, date and time stamps of sessions so I can get as close as possible to estimating total deep work time.
 
+**4/13/2021**
+- (4) 25 minute pomodoros with 5 minute rest attached (2 hours total)
+
 ### Estimation Debrief 
 This section will serve as a debrief my own solo retroactive to determine any discrepancy between by estimation of effort and the actual effort take.
 

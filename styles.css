@@ -6,6 +6,7 @@
 
 #sedan-card {
     background-color: hsl(31, 77%, 52%);
+    border-radius:8px 0px 0px 8px;
 }
 
 #suv-card {
@@ -14,32 +15,58 @@
 
 #luxury-card {
     background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 8px 8px 0px;
 }
 
 .card {
     display: grid;
-    grid-template-rows: auto;
+    grid-template-rows: 125px 70px 200px 75px;
     height: 500px;
     width: 307px;
+    font-size: 15px;
+    line-height: 25px;
 }
 
 button {
     grid-row-start: 4;
     grid-row-end: 4;
-    height: 45%;
+    height: 60%;
     width: 48%;
     margin-left: 15%;
+    border-radius: 25px;
+    border-style: none;
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+}
+
+#sedan-button {
+    color:hsl(31, 77%, 52%);
+}
+
+#suv-button {
+    color:hsl(184, 100%, 22%); 
+}
+
+#luxury-button {
+    color:hsl(184, 100%, 22%);
 }
 
 p {
     padding-left: 15%;
     padding-right: 15%;
     margin: 0;
+    font-family: Lexend Deca;
+    color: white;
+    line-height: 1.6;
+    opacity: 75%;
 }
 
 h1 {
     padding-left: 15%;
     margin: 0;
+    font-family: 'Big Shoulders Display', cursive;
+    color: white;
+    font-size: 40px;
 }
 
 img {
