@@ -39,6 +39,24 @@ button {
     font-size: 15px;
 }
 
+#sedan-button:hover {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+#suv-button:hover {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+#luxury-button:hover {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
 #sedan-button {
     color:hsl(31, 77%, 52%);
 }
