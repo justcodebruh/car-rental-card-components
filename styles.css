@@ -1,7 +1,7 @@
 .wrapper {
     display: grid;
     grid-template-columns: 307px 307px 307px;
-    grid-template-rows: 900px;
+    grid-template-rows: 921px;
 }
 
 #sedan-card {
@@ -28,8 +28,6 @@
 }
 
 button {
-    grid-row-start: 4;
-    grid-row-end: 4;
     height: 60%;
     width: 48%;
     margin-left: 15%;
