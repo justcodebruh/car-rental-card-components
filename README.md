@@ -31,7 +31,7 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Effort Estimation ~ 8 hours 
-I anticipate this challenge should take ~8 hours of dedicated effort. This estimate includes development and research in order to get a working product, I will try to balanch coding standards with get a developed product. I will save intense combing of coding standards for a mock code review of myself and that will be counted as a separate effort.
+I anticipate this challenge should take ~8 hours of dedicated effort. This estimate includes development and research in order to get a working product, I will try to balanch coding standards with getting a developed product. I will save intense adherance to markup best practices for a mock code review of myself and that will be counted as a separate effort.
 
 I will be doing the project with raw HTML 5 and CSS 3 there will be no use of front-end frameworks. 
 
@@ -45,7 +45,7 @@ This section will detail the actual effort I contributed to the project, number 
 - (3) 25 minute pomodoros with 5 minute rest attached (1.5 hours total)
 
 ### Estimation Debrief 
-A hell of an overestimation. I had never used solely CSS Grid before to this degree and truth be told I was compensating for a habit I have of getting stuck in analysis paralysis. I tend to go into documentation trying to find a full understanding of a technology instead of pulling relevant pieces to get something working. I'm proud of myself for sticking to productive Pomodoros in which my main objective was to get working markup on to the page. The original estimation took into account ideas such as, clean code and accurate naming of HTML element classes and ID's using the BEM naming methodology.
+A hell of an overestimation. I had never used solely CSS Grid before to this degree and truth be told I was compensating for a habit I have of getting stuck in analysis paralysis. I tend to go into documentation trying to find a full understanding of a technology instead of pulling relevant pieces to get something working. I'm proud of myself for sticking to productive Pomodoros in which my main objective was to get working markup on to the page. The original estimation took into account ideas such as, clean code, semantic HTML and accurate naming of HTML element classes and ID's using the BEM naming methodology.
 
 ### Screenshot of Solution
 
@@ -62,25 +62,35 @@ I started off with the plain text that the challenge already came with and follo
   1. Solidify your layout using HTML Markup & CSS
   2. Apply styling from the top to the bottom
 
-I began by creating the layout by relying solely on the CSS Grid Layout to position all elements on the page. I made an effort to avoid Flexbox since I already have experience with it and wanted to push myself to become  more comfortable with CSS Grid. 
+I began by creating the layout by relying solely on the CSS Grid Layout  to position all elements on the page. I made an effort to avoid flexbox since I already have experience with it and wanted to push myself to become  more comfortable with CSS Grid Layout. 
 
 In the desktop view I borrowed the pixel dimensions of the entire card component from the Figma document and made that the deault row size (921px) and used the same strategy for generating the column sizes.
 
-I continued to use CSS grid to organize the HTML elments within each card. I tweaked the size of each row after implementing styling for each of the HTML elements, making sure to closely match the mockup dimensions as close as possible. I didn't go through the trouble of finding the exact pixel measurements between HTML elements. ***(I would love some input here as to whether that was a good or bad choice and why).***
+I continued to use CSS grid to organize the HTML elments within each card. I tweaked the size of each row after implementing styling for each of the HTML elements, making sure to  match the mockup dimensions as closely as possible. I didn't go through the trouble of finding the exact pixel measurements between HTML elements. ***(I would love some input here as to whether that was a good or bad choice and why).***
 
 ### Built with
 
 - Semantic HTML5 markup ***(To the best of my ability, please input if there more descriptive elements that can be used anywhere)***
-- CSS custom properties
-- CSS Grid
+- CSS3 Stylesheet
+- CSS Grid Layout
 
 ### What I learned
 
-A lot of my learning came from the use of CSS Grid. Specifically, the fact that CSS Grid will "automagically" generate rows for particular elements just based on the HTML elements in the parent element that is set to ```display: grid```. I noticed this behavior when my button element become a huge square at the bottom of each of my indivdual cards (Sedan, SUV, and Luxury). My button had filled the entire fourth row. This also let me know that HTML elments within a particular row will fill out to the size of the specified CSS Grid cell that they fall in. This point was further driven home when I used the Chrome Dev Tools to inspect the CSS Grid (How to do that is listed under [Useful Resources](#useful-resources)). 
+I focused my learning on CSS Grid. A key takeway was the fact that CSS Grid will "automagically" generate rows  based on the child HTML elements in the parent element that is set to ```display: grid```. 
+
+For example, if you specify four rows for and one column for a parent element that has four child elements stacked on top of one another. CSS Grid will assign each of the child elements to their own row.
+
+I noticed this behavior when my button element become a huge square at the bottom of each of my indivdual cards (Sedan, SUV, and Luxury). 
+![Button filling entire fourth grid row](./full_fourth_row_screenshot.png)
+
+The logo for each of the cards was placed in it's own row, the heading of the card ```<h1></h1>``` was within it's own row, the advertising copy within the paragraph ```<p></p>``` was within it's own row, and then that left my unstyled (at the time time) button to fill the bottom row.
+
+
+This particular revelation let me know that HTML elments within a particular row will fill out to the size of the specified CSS Grid cell that they fall in. This point was further driven home when I used the Chrome Dev Tools to inspect the CSS Grid (How to do that is listed under [Useful Resources](#useful-resources)). 
 
 ### Continued development
 
-I would like to try and make the page fully responsive by including a tablet viewport and making the entire card component expand to fill whatever viewport it inhabits.
+I would like to try and make the page fully responsive by including a tablet view and making the entire card component expand to fill whatever viewport it inhabits.
 
 ### Useful resources
 
