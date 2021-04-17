@@ -86,7 +86,7 @@ I noticed this behavior when my button element become a huge square at the botto
 The logo for each of the cards was placed in it's own row, the heading of the card ```<h1></h1>``` was within it's own row, the advertising copy within the paragraph ```<p></p>``` was within it's own row, and then that left my unstyled (at the time time) button to fill the bottom row.
 
 
-This particular revelation let me know that HTML elments within a particular row will fill out to the size of the specified CSS Grid cell that they fall in. This point was further driven home when I used the Chrome Dev Tools to inspect the CSS Grid (How to do that is listed under [Useful Resources](#useful-resources)). 
+This particular revelation let me know that HTML elments within a particular row will fill out to the size of the specified CSS Grid cell that they fall in. This point was further driven home when I used the Chrome Dev Tools to inspect the CSS Grid also seen in the screenshot above (How to do that is listed under [Useful Resources](#useful-resources)). 
 
 ### Continued development
 
