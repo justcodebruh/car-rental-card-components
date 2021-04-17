@@ -1,7 +1,7 @@
 .wrapper {
     display: grid;
     grid-template-columns: 307px 307px 307px;
-    grid-template-rows: 921px;
+    grid-template-rows: 500px;
 }
 
 #sedan-card {
@@ -90,7 +90,7 @@ img {
     padding-top: 15%;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 600px) {
     .wrapper {
         display: grid;
         grid-template-columns: 1500px;
